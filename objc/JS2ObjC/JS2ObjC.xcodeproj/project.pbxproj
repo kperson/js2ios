@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC319A3A48B00C6A70C /* MathUtilities.m */; };
 		DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */; };
-		DBA36AC819A3AAF000C6A70C /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC719A3AAF000C6A70C /* DictionaryTests.m */; };
+		DBA36ACB19A3B2D700C6A70C /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36ACA19A3B2D700C6A70C /* DictionaryTests.m */; };
 		DBF6AB6E19A3A3E2003A7586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */; };
 		DBF6AB7C19A3A3E2003A7586 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB7B19A3A3E2003A7586 /* XCTest.framework */; };
 		DBF6AB7D19A3A3E2003A7586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */; };
@@ -44,7 +44,7 @@
 		DBA36AC219A3A48B00C6A70C /* MathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtilities.h; sourceTree = "<group>"; };
 		DBA36AC319A3A48B00C6A70C /* MathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtilities.m; sourceTree = "<group>"; };
 		DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtilitiesTests.m; sourceTree = "<group>"; };
-		DBA36AC719A3AAF000C6A70C /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
+		DBA36ACA19A3B2D700C6A70C /* DictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
 		DBF6AB6A19A3A3E2003A7586 /* libJS2ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJS2ObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBF6AB7119A3A3E2003A7586 /* JS2ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JS2ObjC-Prefix.pch"; sourceTree = "<group>"; };
@@ -81,12 +81,20 @@
 		DBA36AC119A3A48A00C6A70C /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				DBA36AC919A3B2D700C6A70C /* Dictionary */,
 				DBA36AC219A3A48B00C6A70C /* MathUtilities.h */,
 				DBA36AC319A3A48B00C6A70C /* MathUtilities.m */,
 				DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */,
-				DBA36AC719A3AAF000C6A70C /* DictionaryTests.m */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		DBA36AC919A3B2D700C6A70C /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DBA36ACA19A3B2D700C6A70C /* DictionaryTests.m */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		DBF6AB6119A3A3E2003A7586 = {
@@ -240,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA36AC819A3AAF000C6A70C /* DictionaryTests.m in Sources */,
+				DBA36ACB19A3B2D700C6A70C /* DictionaryTests.m in Sources */,
 				DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */,
 				DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */,
 			);
