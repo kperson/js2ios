@@ -22,25 +22,12 @@
 
 @implementation DictionaryTests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
 
 /*
  An immutable dictionary.
  This means once a dictionary is set, you can not add any more keys/values
  */
-- (void)testImmutableDictionary
-{
+- (void)testImmutableDictionary {
     NSDictionary *englishDictionary = @{
         @"apple" : @"A red fruit",
         @"car" : @"A land vehicle with four wheels"
