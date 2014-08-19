@@ -16,8 +16,7 @@
 @implementation MathUtilitiesTests
 
 
-- (void)testSum
-{
+- (void)testSum {
     XCTAssertEqual(7, sum(4, 3), @"Sum computation is incorrect");
 }
 

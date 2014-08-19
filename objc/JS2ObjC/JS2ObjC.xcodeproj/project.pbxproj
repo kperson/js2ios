@@ -10,14 +10,11 @@
 		DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC319A3A48B00C6A70C /* MathUtilities.m */; };
 		DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */; };
 		DBF6AB6E19A3A3E2003A7586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */; };
-		DBF6AB7319A3A3E2003A7586 /* JS2ObjC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBF6AB7219A3A3E2003A7586 /* JS2ObjC.h */; };
-		DBF6AB7519A3A3E2003A7586 /* JS2ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF6AB7419A3A3E2003A7586 /* JS2ObjC.m */; };
 		DBF6AB7C19A3A3E2003A7586 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB7B19A3A3E2003A7586 /* XCTest.framework */; };
 		DBF6AB7D19A3A3E2003A7586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */; };
 		DBF6AB7F19A3A3E2003A7586 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB7E19A3A3E2003A7586 /* UIKit.framework */; };
 		DBF6AB8219A3A3E2003A7586 /* libJS2ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF6AB6A19A3A3E2003A7586 /* libJS2ObjC.a */; };
 		DBF6AB8819A3A3E2003A7586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF6AB8619A3A3E2003A7586 /* InfoPlist.strings */; };
-		DBF6AB8A19A3A3E2003A7586 /* JS2ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF6AB8919A3A3E2003A7586 /* JS2ObjCTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +34,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DBF6AB7319A3A3E2003A7586 /* JS2ObjC.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,14 +46,11 @@
 		DBF6AB6A19A3A3E2003A7586 /* libJS2ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJS2ObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF6AB6D19A3A3E2003A7586 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBF6AB7119A3A3E2003A7586 /* JS2ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JS2ObjC-Prefix.pch"; sourceTree = "<group>"; };
-		DBF6AB7219A3A3E2003A7586 /* JS2ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JS2ObjC.h; sourceTree = "<group>"; };
-		DBF6AB7419A3A3E2003A7586 /* JS2ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS2ObjC.m; sourceTree = "<group>"; };
 		DBF6AB7A19A3A3E2003A7586 /* JS2ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JS2ObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF6AB7B19A3A3E2003A7586 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DBF6AB7E19A3A3E2003A7586 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DBF6AB8519A3A3E2003A7586 /* JS2ObjCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JS2ObjCTests-Info.plist"; sourceTree = "<group>"; };
 		DBF6AB8719A3A3E2003A7586 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DBF6AB8919A3A3E2003A7586 /* JS2ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS2ObjCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				DBA36AC119A3A48A00C6A70C /* Functions */,
-				DBF6AB7219A3A3E2003A7586 /* JS2ObjC.h */,
-				DBF6AB7419A3A3E2003A7586 /* JS2ObjC.m */,
 				DBF6AB7019A3A3E2003A7586 /* Supporting Files */,
 			);
 			path = JS2ObjC;
@@ -144,7 +135,6 @@
 		DBF6AB8319A3A3E2003A7586 /* JS2ObjCTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBF6AB8919A3A3E2003A7586 /* JS2ObjCTests.m */,
 				DBF6AB8419A3A3E2003A7586 /* Supporting Files */,
 			);
 			path = JS2ObjCTests;
@@ -240,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF6AB7519A3A3E2003A7586 /* JS2ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +239,6 @@
 			files = (
 				DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */,
 				DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */,
-				DBF6AB8A19A3A3E2003A7586 /* JS2ObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
