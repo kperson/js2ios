@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB81C3BA19A7D53A0052DF75 /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81C3B919A7D53A0052DF75 /* ArrayTests.m */; };
 		DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC319A3A48B00C6A70C /* MathUtilities.m */; };
 		DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */; };
 		DBA36AD419A3D80700C6A70C /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36AD319A3D80700C6A70C /* DictionaryTests.m */; };
@@ -43,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB81C3B919A7D53A0052DF75 /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
 		DBA36AC219A3A48B00C6A70C /* MathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtilities.h; sourceTree = "<group>"; };
 		DBA36AC319A3A48B00C6A70C /* MathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtilities.m; sourceTree = "<group>"; };
 		DBA36AC419A3A48B00C6A70C /* MathUtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtilitiesTests.m; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB81C3B819A7D52E0052DF75 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				DB81C3B919A7D53A0052DF75 /* ArrayTests.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		DBA36AC119A3A48A00C6A70C /* Functions */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 		DBF6AB6F19A3A3E2003A7586 /* JS2ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				DB81C3B819A7D52E0052DF75 /* Array */,
 				DBA36AD819A3F25F00C6A70C /* Classes */,
 				DBA36AD219A3D80700C6A70C /* Dictionary */,
 				DBA36AC119A3A48A00C6A70C /* Functions */,
@@ -268,6 +279,7 @@
 				DBA36AD419A3D80700C6A70C /* DictionaryTests.m in Sources */,
 				DBA36AC519A3A48B00C6A70C /* MathUtilities.m in Sources */,
 				DBA36ADD19A3FBD300C6A70C /* MenuTests.m in Sources */,
+				DB81C3BA19A7D53A0052DF75 /* ArrayTests.m in Sources */,
 				DBA36AC619A3A48B00C6A70C /* MathUtilitiesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

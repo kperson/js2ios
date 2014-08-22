@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>985C6EF0-EE9C-40DB-84E2-5F99219910A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JS2ObjC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC5F63B4-B398-4812-B633-5BA13FCAD295</key>
+		<string>ssh://github.com/kperson/js2ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>objc/JS2ObjC/JS2ObjC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC5F63B4-B398-4812-B633-5BA13FCAD295</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/kperson/js2ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC5F63B4-B398-4812-B633-5BA13FCAD295</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC5F63B4-B398-4812-B633-5BA13FCAD295</string>
+			<key>IDESourceControlWCCName</key>
+			<string>js2ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
